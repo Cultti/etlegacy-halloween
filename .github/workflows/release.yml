@@ -1,0 +1,22 @@
+name: Build release PK3s
+on:
+  release:
+    types: [published]
+permissions:
+  contents: write
+jobs:
+  pk3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/build.py
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/release.py --tag "$GITHUB_REF_NAME"
+      - name: Attach verified archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$GITHUB_REF_NAME" dist/*.pk3 dist/SHA256SUMS dist/manifest.json
