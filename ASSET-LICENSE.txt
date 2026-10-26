@@ -1,0 +1,24 @@
+Studio Halloween pumpkin geometry, texture and empty accessory models:
+CC0 1.0 Universal. Dedicated to the public domain.
+https://creativecommons.org/publicdomain/zero/1.0/
+Created procedurally by scripts/build.py. No original ET assets copied.
+The six procedural cloudy skybox faces are also original CC0 textures.
+
+Zombie artwork:
+assets/zombie/{head,hands,legs}.png, assets/zombie/uniforms/*.png,
+assets/equipment/*.png and assets/equipment/alpha/*.png are
+AI-assisted edits using the
+original Wolfenstein: Enemy Territory UV atlases as layout references. Original
+game artwork rights remain with their respective owners; the procedural-asset
+CC0 dedication above does not relicense that reference artwork. No original
+head/body models or original diffuse image files are redistributed in the PK3.
+See assets/zombie/PROMPTS.md and assets/equipment/PROMPTS.md for the built-in ImageGen prompts and reference paths.
+
+References evaluated (not incorporated):
+Pumpkin 3D by GGBotNet, CC0:
+https://opengameart.org/content/pumpkin-3d
+Downloaded pumpkin3d.zip and inspected texture/source file inventory.
+The supplied geometry requires Blender, unavailable on the implementation host.
+LOWHO Pumpkin Monster by Standout 7, CC0:
+https://standout7.itch.io/lowho-pumpkin-monster
+Page reviewed; FBX alternative not downloaded because it also requires conversion.
