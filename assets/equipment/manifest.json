@@ -1,0 +1,190 @@
+{
+  "mp40": {
+    "path": "models/weapons2/mp40/gun11_yd.tga",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      250
+    ],
+    "alphaSHA256": "b59cd5e9aff3dab70034dd4ebf4a4dfc783e6ed42e7d530ba7797cc4bdce9a46"
+  },
+  "thompson": {
+    "path": "models/weapons2/thompson/thompson_la_yd.tga",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "alphaSHA256": "a8c019a4f813744cabb00601618949efcc42bcad3c294cd490ebff3e79da6a8c"
+  },
+  "knife": {
+    "path": "models/weapons2/knife/knife_yd.tga",
+    "size": [
+      512,
+      128
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "status": "blocked: image tool rejected both material-only edits"
+  },
+  "syringe": {
+    "path": "models/multiplayer/syringe/syringe.tga",
+    "size": [
+      128,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "alphaSHA256": "f00dc67d4dd860930b0e8e9fb95fb16bd840124510b681048b7fc952be961290"
+  },
+  "plunger": {
+    "path": "models/multiplayer/syringe/plunger.tga",
+    "size": [
+      128,
+      256
+    ],
+    "mode": "RGB",
+    "alpha": null
+  },
+  "pliers": {
+    "path": "models/multiplayer/pliers/pliers.tga",
+    "size": [
+      128,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      125,
+      166
+    ],
+    "alphaSHA256": "911f6bffcf5f20b3ae10591895eede582db600d5f4b7ee83363b3cba4bd6b7ef"
+  },
+  "dynamite": {
+    "path": "models/weapons2/c4_dynamite/dynomite1a.tga",
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      64,
+      255
+    ],
+    "status": "blocked: image tool rejected both requested weathering edits"
+  },
+  "grenade-axis": {
+    "path": "models/weapons2/grenade/grenade_yd.tga",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      98,
+      255
+    ],
+    "alphaSHA256": "a5da4accc5c1d0870450c0f5b4ab9141a346ea1cbae0221201a3a4005d31b619"
+  },
+  "grenade-allied": {
+    "path": "models/weapons2/grenade/grenade_us.tga",
+    "size": [
+      128,
+      128
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "alphaSHA256": "9852a729a0f66a5c155296e014b20671a837fea1540f6a724756a84bfec9e5b2"
+  },
+  "health": {
+    "path": "models/multiplayer/supplies/healthbox.tga",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      143,
+      255
+    ],
+    "alphaSHA256": "c7cb97d1906fd65580b6bc994fb2e52956971f3244f4e4897c916fc08328b1d7"
+  },
+  "ammo": {
+    "path": "models/multiplayer/supplies/ammobox.tga",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      113,
+      255
+    ],
+    "alphaSHA256": "7c00cd98003fc27749815ca2a6ff392aa7411238826b90460f417a18e4a0444f"
+  },
+  "binoculars": {
+    "path": "models/multiplayer/binocs/binoculars.tga",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "alphaSHA256": "df49d7d350cbe7a5f6ee30a05106726d6aa77a94a6d63b660cb0caa6cd7a9f48"
+  },
+  "panzerfaust": {
+    "path": "models/weapons2/panzerfaust/panzerfaust_yd.tga",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      212,
+      255
+    ],
+    "alphaSHA256": "1a96579ed5302a50a2d26a62a736bbdc64e8671eb10f1a4d671f75fa6b778568"
+  },
+  "landmine": {
+    "path": "models/multiplayer/landmine/landmine.jpg",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "status": "blocked: image tool rejected the weathered prop edit"
+  },
+  "fluid": {
+    "path": "models/multiplayer/syringe/fluid.tga",
+    "size": [
+      64,
+      64
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      179,
+      179
+    ],
+    "alphaSHA256": "6d4706bef41d815a7d26a173980ab0d558e0c42c0fe8e1eaddb54570d21c5536"
+  }
+}
